@@ -84,4 +84,32 @@ public class TicketMachine
     {
     return total;
      }
+     /**
+      * permite cambiar el valor del precio
+      */
+     public void serPrice(int cost)
+     {
+         price = cost;
+        }
+        /**
+         * permite incrementar el precio el billlete 2 euros
+         */
+        public void subirprecioen2euros()
+        {
+         price = price + 200;   
+        }
+        /**
+         * reducir el precio del billete en cantidad del parametro
+         */
+        public void discount(int amount)
+        {
+            price = price - amount;
+        }
+        /**
+         * sacar un mensaje por la pantalla
+         */
+        public void promnt()
+        {
+            
+        }
 }
