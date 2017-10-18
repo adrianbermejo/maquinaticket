@@ -75,4 +75,13 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+
+    /**
+    
+     * devuelve el valor del precio total
+     */
+    public int getTotal()
+    {
+    return total;
+     }
 }
