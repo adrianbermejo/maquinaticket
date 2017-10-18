@@ -46,4 +46,15 @@ public class Estaciondetren
     {
         return maquina1.getTotal()+maquina2.getTotal();
     }
+    
+    /**
+     * inprimir por pantalla el valor recaudado
+     * por la maquina 1,por la maquina 2
+     * y el total de ambas
+     */
+    
+    public int total()
+    {
+     return maquina1   
+    }
 }
