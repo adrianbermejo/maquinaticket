@@ -53,8 +53,10 @@ public class Estaciondetren
      * y el total de ambas
      */
     
-    public int total()
+    public void  recaudacion()
     {
-     return maquina1   
+     System.out.println("la cantidad de dinero en maqina 1 es"+maquina1.getTotal());
+     System.out.println("la cantidad de dinero en maqina 2 es"+maquina2.getTotal()); 
+     System.out.println("la cantidad de dinero entotal es"+(maquina1.getTotal() + maquina2.getTotal())); 
     }
 }
