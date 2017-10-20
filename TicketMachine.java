@@ -23,6 +23,18 @@ public class TicketMachine
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
+    public TicketMachine(int cost)
+    {
+        price = 1000;
+        balance = 0;
+        total = 0;
+    }
+    
+    /**
+     * Create a machine that issues tickets of the given price.
+     * Note that the price must be greater than zero, and there
+     * are no checks to ensure this.
+     */
     public TicketMachine()
     {
         price = 1000;
@@ -112,5 +124,13 @@ public class TicketMachine
         public void promnt()
         {
             
+        }
+        
+        /**
+         * vacia el contador total
+         */
+        public void vaciar()
+        {
+         total = 0;   
         }
 }
